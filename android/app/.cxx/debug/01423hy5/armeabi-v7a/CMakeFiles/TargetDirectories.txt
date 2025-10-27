@@ -1,0 +1,2 @@
+H:/HipstarVideoCall/android/app/.cxx/debug/01423hy5/armeabi-v7a/CMakeFiles/edit_cache.dir
+H:/HipstarVideoCall/android/app/.cxx/debug/01423hy5/armeabi-v7a/CMakeFiles/rebuild_cache.dir

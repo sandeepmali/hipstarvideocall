@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace = "com.example.hipstarvideocall"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+
+    defaultConfig {
+        // Updated Application ID
+        applicationId = "com.example.hipstarvideocall"
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // Using debug signing config for now
+            signingConfig = signingConfigs.getByName("debug")
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
+    }
+
+    // Optional: enable viewBinding if used
+    // buildFeatures {
+    //     viewBinding true
+    // }
+}
+
+flutter {
+    source = "../.."
+}

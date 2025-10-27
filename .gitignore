@@ -1,0 +1,65 @@
+# =========================
+# Flutter & Dart
+# =========================
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+generated_plugin_registrant.dart
+**/GeneratedPluginRegistrant.*
+**/generated/
+
+# =========================
+# Android
+# =========================
+.gradle/
+.idea/
+local.properties
+*.iml
+captures/
+outputs/
+*.apk
+*.aab
+*.aar
+*.keystore
+*.jks
+.externalNativeBuild/
+**/intermediates/
+**/kotlin/
+**/obj/
+**/jniLibs/
+
+# =========================
+# iOS
+# =========================
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/DerivedData/
+
+# =========================
+# macOS / Windows / Linux
+# =========================
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# =========================
+# IDE & System
+# =========================
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# =========================
+# Other
+# =========================
+pubspec.lock

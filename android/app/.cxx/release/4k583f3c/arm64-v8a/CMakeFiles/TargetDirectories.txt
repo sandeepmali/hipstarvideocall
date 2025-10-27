@@ -1,0 +1,2 @@
+H:/HipstarVideoCall/android/app/.cxx/release/4k583f3c/arm64-v8a/CMakeFiles/edit_cache.dir
+H:/HipstarVideoCall/android/app/.cxx/release/4k583f3c/arm64-v8a/CMakeFiles/rebuild_cache.dir
