@@ -16,12 +16,12 @@ class _ChimeMeetingScreenState extends State<ChimeMeetingScreen> {
   @override
   void initState() {
     super.initState();
-
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   }
 
   @override
   void dispose() {
+    // Restore to default when leaving
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     super.dispose();
   }
@@ -37,9 +37,17 @@ class _ChimeMeetingScreenState extends State<ChimeMeetingScreen> {
     );
 
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Meeting'),
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+      ),
       backgroundColor: Colors.black,
-      body: SizedBox.expand(
-        child: MyMeetingView(joinInfo),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: MyMeetingView(joinInfo),
+        ),
       ),
     );
   }
