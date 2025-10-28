@@ -8,24 +8,17 @@ video calling app
 
 ## 📱 App Screenshots
 
-### 🖼️ Splash Screen
-![Splash](https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/splash.jpeg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/splash.jpeg" width="30%" />
+  <img src="https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/list_screen.jpeg" width="30%" />
+  <img src="https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/single_user.jpeg" width="30%" />
+</p>
 
-### 👥 User List
-![User List](https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/list_screen.jpeg)
-
-### 👤 Single User Selection
-![Single User](https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/single_user.jpeg)
-
-### 🎥 Video Preview (Before Joining)
-![Video Preview](https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/video_preview_befre_join.jpeg)
-
-### 🎦 Video Joined (Main Meeting)
-![Video Joined](https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/video_joined.jpeg)
-
-### 🎦 Video Joined – Alternate View
-![Video Joined Alt](https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/video_joined_.jpeg)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/video_preview_befre_join.jpeg" width="30%" />
+  <img src="https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/video_joined.jpeg" width="30%" />
+  <img src="https://raw.githubusercontent.com/sandeepmali/hipstarvideocall/main/assets/screenshots/video_joined_.jpeg" width="30%" />
+</p>
 
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.35.7-blue?logo=flutter)](https://flutter.dev)
